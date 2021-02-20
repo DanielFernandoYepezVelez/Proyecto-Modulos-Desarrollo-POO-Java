@@ -1,4 +1,4 @@
-package com.moduloDesarrollo._17_EjercicioJava;
+package com.moduloDesarrollo._17_EjercicioJava.model;
 
 import java.util.Objects;
 

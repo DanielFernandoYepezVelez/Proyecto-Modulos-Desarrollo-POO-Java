@@ -1,5 +1,9 @@
 package com.moduloDesarrollo._17_EjercicioJava;
 
+import com.moduloDesarrollo._17_EjercicioJava.model.Electrodomestico;
+import com.moduloDesarrollo._17_EjercicioJava.model.Lavadora;
+import com.moduloDesarrollo._17_EjercicioJava.model.Television;
+
 public class Main {
     public static void main(String[] args) {
         Double precioTotalLavadoras = 0D;

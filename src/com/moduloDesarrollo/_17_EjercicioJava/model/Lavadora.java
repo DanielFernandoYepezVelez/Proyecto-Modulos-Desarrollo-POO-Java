@@ -1,4 +1,6 @@
-package com.moduloDesarrollo._17_EjercicioJava;
+package com.moduloDesarrollo._17_EjercicioJava.model;
+
+import com.moduloDesarrollo._17_EjercicioJava.model.Electrodomestico;
 
 public class Lavadora extends Electrodomestico {
     private static final Double CARGA_KG = 5D;
