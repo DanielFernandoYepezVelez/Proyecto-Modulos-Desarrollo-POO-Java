@@ -1,7 +1,7 @@
 package com.moduloDesarrollo._16_EjercicioJava.model;
 
 public class Persona {
-    private final Character HOMBRE = 'H';
+    private static final Character HOMBRE = 'H';
 
     private String dni;
     private Integer edad = 0;
@@ -90,10 +90,10 @@ public class Persona {
     }
 
     private void aleatorio() {
-        this.dni = String.valueOf(Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65))))
+        this.dni = Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65)))
                 + String.valueOf(Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65))))
-                + String.valueOf(Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65))))
-                + String.valueOf(Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65))));
+                + Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65)))
+                + Math.round(Math.floor((Math.random() * (90 - 65 + 1) + 65)));
     }
 
     private void generarDNI() {
